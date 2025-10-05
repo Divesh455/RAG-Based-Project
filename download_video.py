@@ -13,4 +13,4 @@ for i in url:
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([i])
 
-    print("✅ Download Completed! Check your Downloads folder.")
+    print("Download Completed! Check your Downloads folder.")
